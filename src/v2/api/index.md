@@ -1699,7 +1699,6 @@ type: api
 
   当条件变化时该指令触发过渡效果。
 
-  <p class="tip">当和 `v-if` 一起使用时，`v-for` 的优先级比 `v-if` 更高。详见[列表渲染教程](../guide/list.html#v-for-with-v-if)</p>
 
 - **参考**：[条件渲染 - v-show](../guide/conditional.html#v-show)
 
@@ -1796,6 +1795,8 @@ type: api
   ```
 
   `v-for` 的详细用法可以通过以下链接查看教程详细说明。
+  
+  <p class="tip">当和 `v-if` 一起使用时，`v-for` 的优先级比 `v-if` 更高。详见[列表渲染教程](../guide/list.html#v-for-with-v-if)</p>
 
 - **参考**：
   - [列表渲染](../guide/list.html)
